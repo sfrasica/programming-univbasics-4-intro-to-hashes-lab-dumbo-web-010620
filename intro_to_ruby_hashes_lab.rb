@@ -22,9 +22,9 @@ end
 
 def my_hash_creator(key, value)
   created_hash = {
-    key: value
+    key: "value"
   }# return a hash that includes the key and value parameters passed into this method
-  created_hash
+  created_hash(pokemon, "pikachu")
 end
 
 def read_from_hash(hash, key)
